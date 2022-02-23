@@ -1,0 +1,912 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The lawfulnes of mixt-marriages weighed, or, An answer to a dialogue between A. and B., written by Stephen Tory in vindication of mixt-marriages, by a conference between C. and D. concerning the same dialogue by J.D.</title>
+            <author>J. D. (John Denne)</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 81 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A35666</idno>
+            <idno type="STC">Wing D1026</idno>
+            <idno type="STC">ESTC R9598</idno>
+            <idno type="EEBO-CITATION">12330008</idno>
+            <idno type="OCLC">ocm 12330008</idno>
+            <idno type="VID">59628</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A35666)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 59628)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 207:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The lawfulnes of mixt-marriages weighed, or, An answer to a dialogue between A. and B., written by Stephen Tory in vindication of mixt-marriages, by a conference between C. and D. concerning the same dialogue by J.D.</title>
+                  <author>J. D. (John Denne)</author>
+               </titleStmt>
+               <extent>49 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.D. for the author, and are to be sold by Thomas Fabian ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1681.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Epistle to the reader" signed: John Denn.</note>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Tory, Stephen. --  Mixt marriages vindicated.</term>
+               <term>Interfaith marriage --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:59628:1" rendition="simple:additions"/>
+            <pb facs="tcp:59628:1" rendition="simple:additions"/>
+            <p>THE LAWFULNES OF Mixt-Marriages WEIGHED.</p>
+            <p>OR An Anſwer to a Dialogue, between <hi>A.</hi> and <hi>B.</hi> Written by <hi>STEPHEN TORY,</hi> In Vindication of Mixt-Marriages,</p>
+            <p>By a Conference between <hi>C.</hi> and <hi>D.</hi> Con<g ref="char:EOLhyphen"/>cerning the ſame Dialogue.</p>
+            <p>By <hi>J. D.</hi>
+            </p>
+            <q>
+               <p>I alſo will anſwer my part, I will alſo ſhew my Opinion,
+<bibl>
+                     <hi>Job 32.17.</hi>
+                  </bibl>
+               </p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. D.</hi> for the Author, and are to be ſold by <hi>Thomas Fabian,</hi> at the Sign of the Bible, in <hi>Pauls</hi> Church-Yard, a Corner-Shop next <hi>Cheap-Side.</hi> Anno 1681.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:59628:2"/>
+            <pb n="3" facs="tcp:59628:2"/>
+            <head>THE EPISTLE TO THE READER.</head>
+            <opener>
+               <salute>READER,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">A</seg>S <hi>Solomon</hi> ſaith, there is no end (I do aſſure thee I take no pleaſure) in Writing Books, I never was Ambi<g ref="char:EOLhyphen"/>tious (after this manner) to Expoſe my ſelf to publick View. This enſu<g ref="char:EOLhyphen"/>ing Conference, was occaſioned (and I may in a ſence ſay, Extorted from me) by a Dialogue, concerning mixt
+<pb facs="tcp:59628:3"/>
+Marriages written by, <hi>Stephen To<g ref="char:EOLhyphen"/>ry:</hi> which when I had peruſed, I did diſaprove thereof; and perceiving it to proceed from an evil Root, and well knowing both by Scripture and Expe<g ref="char:EOLhyphen"/>rience, the Poiſonous Fruit thereof, I thought my ſelf obliged to give it a Nip; that (if it may be) the maturi<g ref="char:EOLhyphen"/>ty of the Fruit might be prevented. Howſoever, in this I have ſhewed my diſlike, which I commend to thee, that thou mayeſt judge what is ſaid; Read it patiently, Conſider it ſeriouſly; And I pray, God may open thy Eyes, that thou mayeſt clearly ſee to diſtin<g ref="char:EOLhyphen"/>guiſh between Truth and Errour. Amen.</p>
+            <closer>
+               <signed>Farewel, Thine in the Lord, <hi>JOHN DENN.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb facs="tcp:59628:3"/>
+            <head>THE LAWFULNESS OF <hi>Mixt-Marriages</hi> WEIGHED.</head>
+            <sp>
+               <speaker>C.</speaker>
+               <p>WEll met Brother, I am heartily glad to ſee you.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>And you alſo, I am as glad to ſee you; and the rather, becauſe I have had for ſome days, a mind to ſpeak with you.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>Pra'y what is your Buſineſs?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I have ſeen a Dialogue concerning Mixt-Marria<g ref="char:EOLhyphen"/>ges; wherein ſuch Marriages are vindicated, which I pre<g ref="char:EOLhyphen"/>ſume you do not allow of: and I have been exceedingly deſirous to ſpeak with you, to hear whether you have ſeen it, and what you ſay to it.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>I have (I preſume) ſeen the Book which you mean: is it not a Dialogue between <hi>A.</hi> and <hi>B.</hi> ſhewing (as the Author ſaith) firſt, That for perſons to be marred, who differ about Inſtitutions in matters of Religion, is contra<g ref="char:EOLhyphen"/>ry to no Law, and therefore lawful?</p>
+               <p>Secondly, That if ſuch Marriages were the Breach of
+<pb facs="tcp:59628:4"/>
+a Law, yet there is no Rule for the Church to Excom<g ref="char:EOLhyphen"/>municate ſuch perſons for ſo doing.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>It is the ſame, pray what do you ſay to it?</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>I think the Author might have been better employ<g ref="char:EOLhyphen"/>ed, for ſure it was needleſs (I will not ſay evil) to write in the Encouragement of ſuch things, that (if they were lawful) are altogether inexpedient, by the Author's own confeſſion:<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 51.</note> yea in ſuch a meaſure, that he tells you, ſuch a Marriage lets in Contention and Strife, depriveth the Man and Wife of thoſe Comforts they might otherwiſe enjoy, and (without doubt he ſaith) layeth them open to Temptations, and hazardeth their Reputation, the ho<g ref="char:EOLhyphen"/>nour of God and Religion:<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 52.</note> For which alſo, God Al<g ref="char:EOLhyphen"/>mighty will certainly ſome way or other deal with them: Sure no Wiſdom can be apparent in the vindication of ſuch inconveniences.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>The deſign of the Author was, to prove the law<g ref="char:EOLhyphen"/>fulneſs of ſuch Marriages, and not the conveniency: which he well demonſtrates in his Title Page.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>I ſay again, there is no prudence in the encourag<g ref="char:EOLhyphen"/>ing lawful Acts, when attended with ſuch inconvenien<g ref="char:EOLhyphen"/>ces: but I do not perceive your Author hath as yet proved the matter lawful: what he pretends in his Title Page, is ſo far from Truth, that I do wonder he ſhould expoſe it to publick view.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Wherein? for my own part, I apprehend no ſuch thing.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>He pretends to ſhew two things. Firſt, That what is contrary to no Law, muſt be lawful. Secondly, If there be a Breach of a Law, yet the Church hath no Rule to Excommunicate perſons for ſuch a Breach: what think you of theſe things?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I think he ſaith very well, and it muſt be true, that what is contrary to no Law, is lawful.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:59628:4"/>
+               <speaker>C.</speaker>
+               <p>I ſuppoſe ye think, that the Author Believes the Baptiſm of Infants to be unlawful,, as alſo the Baptiſm of Bells <hi>&amp;c.</hi> Yet it will trouble the Author to ſhew me the Law it is contrary unto. Beſides, I am able to ſhew you divers things practiſed, which are contrary to no poſitive Law: yet neither you nor the Author (I preſume) dare to vindicate, as the uſe of Cream, Oyl, and Spittle in Baptiſm, the Croſs, Holy Water, <hi>&amp;c.</hi> In truth it is a ſtrange Aſſertion, that all things are lawful which are not contrary to the Law. I muſt put the Author in mind of Tranſgreſſion as well as Diſobedience; now to tanſgreſs is to go beyond the Law: to do that for which there is no Law, and this is a Sin. But what of all this, if it be the Breach of a Law, (which is Diſobedience and Rebel<g ref="char:EOLhyphen"/>lion) it matters not, the Church cannot (ought not ſaith your Author) to Excommunicate for ſuch a Breach. Is not this the ready way, to make the Houſe of God a Den of Thieves? Doth not this Doctrine Extirpate all Order and Diſcipline?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Indeed, I did not think when I Read the Book, that thoſe Poſitions had ſuch Tendency; I now perceive they are very dangerous: I wiſh the Author had been better ad<g ref="char:EOLhyphen"/>viſed; but do not you ſtretch this too far, he himſelf car<g ref="char:EOLhyphen"/>ries it with a fair Gloſs throughout his Book.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>The Author indeed endeavours it, but by what means, may with facility be perceived. For, 1. He doth but lightly touch his own Poſitions, (as if he was afraid to venture upon them.) 2. He frames ſuch Arguments, as he thinks himſelf able to anſwer: a man may fight with Courage, when he hath the liberty to chooſe his Adverſa<g ref="char:EOLhyphen"/>ries Weapons.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I am afraid Brother you are partial, and too Cenſo<g ref="char:EOLhyphen"/>rious in this matter: I confeſs you have made me ſtumble
+<pb facs="tcp:59628:5"/>
+at the Title Page, but I think the Subſtance of the Book is very ſound and weighty.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>It is an evil <hi>Omen,</hi> to meet with a ſtumbling-block at the Threſhold.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Pray Brother, let me interrupt you, and I entreat you candidly to weigh the Book it ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>I have weighed it, and find it too light.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>For my ſatisfaction, pray condeſcend to give me a particular account thereof in order, that ſo I may be ſen<g ref="char:EOLhyphen"/>ſible of the miſtakes, if any be<g ref="char:punc">▪</g>
+               </p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>What do you mean by a particular account?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>To paſs through the whole Dialogue, and to conſi<g ref="char:EOLhyphen"/>der as we go, the Arguments and Anſwers, which are there found, as to the matter in hand.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>At your requeſt I will do it: let us begin.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I am content to paſs over the Introduction to his Diſcourſe, and take notice, 1. Of the Anſwers to what is alleged (or pretended <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n the Dialogue ſo to be) a<g ref="char:EOLhyphen"/>gainſt Chriſtians marrying with unbelievers, or ſuch as are not Church Members: wherein pray, what ſay you to the Anſwer to the Argument, drawn from the Creation of the Woman,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>8.</note> 
+                  <hi>Gen.</hi> 2.18.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>I muſt tell you the Author is very prudent, in fight<g ref="char:EOLhyphen"/>ing with his own Shadow, from which no man can expect harm. I never heard (or can believe) that a Rational Man would produce that Text, <hi>Gen.</hi> 2.18. againſt ſuch Marriages as the Dialogue intendeth: but the leſs force the Argument hath, it is the eaſier anſwered. But before I leave this, I muſt take notice of a ſtrange miſtake in the Author, who tells us, that it was not the deſign of God Almighty in creating the Woman, that ſhe ſhould be meet help to Man in the beſt things: which he endea<g ref="char:EOLhyphen"/>vours to prove, becauſe it fell out otherwiſe, the Woman
+<pb facs="tcp:59628:5"/>
+being firſt in the Tranſgreſſion, and a Temptation to her huſband, <hi>Gen.</hi> 3.6, 12. I muſt herein tell you and the Author alſo, that it was the deſign of God Almighty, that the Woman ſhould be a meet help in the beſt things: for certainly God deſign'd his own Honour in the creation of Male and Female, which is moſt advanced when they a<g ref="char:EOLhyphen"/>bound in good things. What afterwards fell out, is no good Argument againſt the deſign; Events prove many times contrary to Deſigns and Expectations. And it muſt be thought the Author had little foreſight, when he thus argued: for if he had but conſidered what himſelf intend<g ref="char:EOLhyphen"/>ed, and afterwards wrote,<note place="margin">Fol<gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note> he would have perceived the weakneſs of his own Weapon. For he tells you, good and lawful Acts (and then much more deſigns) may be at<g ref="char:EOLhyphen"/>tended with contrary accidents. He that kindles a Fire with a deſign to warm himſelf, it may perhaps (ſaith the Author) burn the Houſe. <hi>&amp;c.</hi> Thus you ſee what in<g ref="char:EOLhyphen"/>conſiſtences accrue through want of preconſideration.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I will not undertake a reply to what you have ſaid, I muſt leave that to the Author: but let us proceed to his Anſwer to the Argument from <hi>Gen.</hi> 6.2.<note place="margin">Fo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g> 
+                     <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </note>
+               </p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>I muſt again ſay, it is beſt anſwering Arguments of a Man's own framing: and therefore, 1. As to the Expoſition of <hi>Gen.</hi> 4.26. <hi>(then began Men to call up<g ref="char:EOLhyphen"/>on the Name of the Lord)</hi> I tell you whatſoever the meaning of that Text is, it is nothing to the purpoſe in hand, for that Argument and Anſwer may ſhake hands. 2. As to the Sons of God, mentioned <hi>chap.</hi> 6. It mat<g ref="char:EOLhyphen"/>ters not who they were, it is nothing to our purpoſe: But I ſuppoſe the Author to be ſtrangely miſtaken in his conceit, that they were the Inhabitants of <hi>Eden,</hi> begot<g ref="char:EOLhyphen"/>ten by <hi>Adam</hi> before his Fall, whom (he pretends) remained uncorrupt till that Day: at which time they
+<pb facs="tcp:59628:6"/>
+defiled themſelves by accompaning with fallen Wo<g ref="char:EOLhyphen"/>men.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But he ſheweth you many Reaſons for that Opini<g ref="char:EOLhyphen"/>on.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>I will conſider them in order, 1. For the Continu<g ref="char:EOLhyphen"/>ation and Preſervation of the Garden of <hi>Eden:</hi> it will be hard for your Author to prove that it continued ſo many hundred Years as paſſed between the Creation and the Flood: but if ſo, before the Author concludes that it was preſerved for an Habitation for Men, not corrupted by the fall of <hi>Adam,</hi> he ought to have proved that there was ſuch a Generation: which, when he doth, I will con<g ref="char:EOLhyphen"/>ſider more of it. His concluſion in the ſecond place from the Text,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>7.</note> that their Acquaintance was by accident, and not from their Cradles, is nothing to the purpoſe; I ap<g ref="char:EOLhyphen"/>prehend no ſuch neceſſary Deduction from the Text: but <hi>if ſo,</hi> muſt they be ſuch Inhabitants in <hi>Eden,</hi> becauſe their Acquaintance was new? Is it not common for perſons not acquainted from the Cradle, to Marry in our days, yet not to come from <hi>Eden,</hi> but of the ſame Country?</p>
+               <p>And for the manner of Speech, it imports no ſuch thing as your Author ſurmiſeth: but this is to be conſidered thence-from, that Men preferred Beauty before Vertue, their choice in Marriage was according to their own wills, without reſpect to the Honour of God, or any bounds and limits by him ſet. 3. Whereas your Author argues, that as their Acquaintance, ſo the Effects of their Union was ſtrange and unexpected to the then World: I cannot but think it ſtrange, (and it was unexpected too) that your Author ſhould ſo miſtake; 1. himſelf: doth not he tell us the Eyes of the People were fixed upon theſe Marriages, to ſee what would be the Effect thereof, as looking for ſomething not common, and then how could the Effects
+<pb facs="tcp:59628:6"/>
+be unexpected to <hi>thoſe</hi> who were looking for them? 2. He miſtakes the Text I am ſure; that doth not ſay the Effect of their Union was ſtrange: and why he ſhould conjec<g ref="char:EOLhyphen"/>ture it, I know not: the contrary is apparent from the Scripture, which ſaith, <hi>Gen.</hi> 6.4. There were Giants in the Earth in thoſe days, and alſo <hi>after that,</hi> when the Sons of God came in unto the Daughters of Men, and they bare Children unto them, the ſame became mighty Men, which were <hi>of old,</hi> Men of Renown; the Words <hi>(and alſo)</hi> demonſtrate there was nothing new in that Caſe, and therefore not ſtrange to the then World. Beſides, this is evident from what is ſaid, ſuch Men were <hi>of old</hi> Men of Renown: it is but your Author's Fancy, which in<g ref="char:EOLhyphen"/>duceth him to think not only above, but contrary to what is written. Yet, 4.<note place="margin">Fol<gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note> He comes to tell us of thoſe prodi<g ref="char:EOLhyphen"/>gious Births which were in thoſe days, as another Reaſon to perſwade us to think that there were ſuch incorrupted Inhabitants in <hi>Eden.</hi> But would not a Man think that to be verified in your Author, as he ſaith of his Brethren,<note place="margin">Fol<gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note> that they may be imagined not only beſides the Truth, but their Wits alſo. For 1. There were no prodigious Births: he that conſults the Text, <hi>Gen.</hi> 6.4. will per<g ref="char:EOLhyphen"/>ceive there was nothing but what was uſual in thoſe days, (as appears in the beginning of the <hi>verſe,</hi> and <hi>alſo after that,</hi> &amp;c.) and alſo in the former days, for their off-ſpring was ſuch as was <hi>of old.</hi> 2.<note place="margin">Fo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g> 
+                     <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </note> Doth not your Author argue, that thoſe Marriages were not ſin, becauſe God bleſſed them with a great bleſſing, in giving them an Ho<g ref="char:EOLhyphen"/>nourable Off-ſpring? What, an Honourable Off-ſpring, yet a prodigious, <hi>(viz.)</hi> a monſtrous Birth: this is your Author. But what if there had been ſuch prodigious Births, doth that demonſtrate any ſuch Inhabitants in <hi>Eden,</hi> as your Author conceits? Surely no, but if it
+<pb facs="tcp:59628:7"/>
+ſhould, your Author is beſides the Cuſhion, and caught in his own Snare. For the only reaſon muſt be, in that one Party was Righteous, and the other Wicked, for they were all of Mankind: and ſo as to that, no diffe<g ref="char:EOLhyphen"/>rence in reference to the Act of Generation. His 5. Reaſon from <hi>verſe</hi> 12. is as prodigious as his pretend<g ref="char:EOLhyphen"/>ed Births:<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>7.</note> and may we not think it ſtrange, that any Man (in his right wits) ſhould think it moſt rational arguing, that ſome Men remained Pure and Incorrupted until thoſe days, becauſe that Text ſaith, All Fleſh had corrupted his ways? Doth not the Apoſtle ſay, <hi>Rom.</hi> 3.23. All have ſinned? may we ſuppoſe you argue from thence, that ſome were Pure untill thoſe days? But ſince I have entred upon this conceit, I will enquire a little farther into the matter. For to me it is apparent there were no ſuch Pure Inhabitants of <hi>Eden,</hi> who had their Reſidence there from before the Fall of <hi>Adam</hi> to thoſe days, above 1500 Years.</p>
+               <p>Your Author would think in another Caſe, it was De<g ref="char:EOLhyphen"/>monſtration ſufficient, becauſe that in all the Genealo<g ref="char:EOLhyphen"/>gies from <hi>Adam,</hi> there is no mention of any ſuch Children that <hi>Adam</hi> had, which ſure in ſo many hundred Years we ſhould have heard of; if there had been any ſuch, their Praiſe-worthy Integrity would not have been concealed. But the Truth is, there were no ſuch: <hi>Eve</hi> who was the Mother of all living, brought forth <hi>Cain</hi> her firſt born Son; this is evident in that at his Birth ſhe ſaid, <hi>Gen.</hi> 4.1. <hi>I have gotten a Man from the Lord:</hi> this Expreſſion would not have been uſed, if ſhe had brought forth a Son before. Again, theſe pretended People (it ſeems) did not fall in <hi>Adam:</hi> but the Apoſtle <hi>Paul</hi> ſaith, <hi>Rom.</hi> 5.12. <hi>In</hi> Adam <hi>all ſinned:</hi> and <hi>ver.</hi> 18. <hi>by the offence of one</hi> (viz. <hi>Adam) Judgement came upon all Men.</hi> From
+<pb facs="tcp:59628:7"/>
+whence I argue thus, 1. That if all men ſinned in <hi>Adam,</hi> then there were no ſuch Pure Inhabitants in <hi>Eden,</hi> who ſinned not until the days of <hi>Noah:</hi>
+               </p>
+               <p>But all men ſinned in <hi>Adam:</hi> Ergo, <hi>&amp;c.</hi>
+               </p>
+               <p n="2">2. If through <hi>Adam</hi>'s offence, judgement came upon all Men to Condemnation, then the ſin of <hi>Adam</hi> was de<g ref="char:EOLhyphen"/>volved upon all Men: but through <hi>Adam</hi>'s offence, judg<g ref="char:EOLhyphen"/>ment came upon all Men to Condemnation: <hi>Ergo, &amp;c.</hi>
+               </p>
+               <p>Theſe Arguments conſidered, which do confirm each other, may convince any Man; that there were no ſuch innocent Men, which (as your Author pretends) were not defiled by <hi>Adam</hi>'s Tranſgreſſion.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I am at a ſtand, and dare hot adhere to the afore<g ref="char:EOLhyphen"/>ſaid Opinion, becauſe your words do almoſt convince me of the contrary.</p>
+               <p>But whether this Opinion be true or falſe,<note place="margin">
+                     <hi>Fol.</hi> 8<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> our Author ſaith, it cannot be proved from the Example of the old World, that thoſe Marriages were ſinful, or that the World was drowned becauſe of that Sin: Yea, he ſuggeſts they were not ſinful, becauſe the Breach of no Law: for (ſaith he) if there was a Law, he deſires to be ſhewed,
+<list>
+                     <item>1. What Law it was.<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                              <desc>••</desc>
+                           </gap>
+                        </note>
+                     </item>
+                     <item>2. When it was given.</item>
+                     <item>3. By whom it was given.</item>
+                     <item>4. To whom it was given.</item>
+                     <item>5. Where it was given.</item>
+                     <item>6. The Penalties for breaking it.</item>
+                     <item>7. The Reward promiſed to thoſe that kept it.</item>
+                  </list>
+               </p>
+               <p>Again he tells you, The Act might be lawful, yet ſome ſubſequent Accident unlawful, whereof alſo he gives divers inſtances.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>I am alſo at a ſtand, as not knowing what to think of your Author, who dares affirm that thoſe Marriages before mentioned, cannot be proved ſinful.</p>
+               <p>
+                  <pb facs="tcp:59628:8"/>Sure he doth not perceive the coherence of the Word, which plainly demonſtrats God's diſpleaſure for that thing. The Text ſaith, <hi>Gen.</hi> 6.2. <hi>They took them Wives of all, which they chooſe. And the Lord ſaid,</hi> (for that thing) <hi>my Spirit ſhall not always ſtrive with Man.</hi> What can be more plain, then that their choice was limited: (elſe what means the Word, <hi>they took them Wives of all which they chooſe,</hi>) and that God was diſpleaſed with their Marriages; but God is not diſpleaſed with ſuch things, that are not contrary to his minde. From whence you may perceive, it will be no difficult matter to prove thoſe Marriages ſin, although your Author propounds (to evade it) many queſtions about the Law which ſhould make it ſin: whereto in Anſwer I muſt tell him, that the Sacrifice which <hi>Abel</hi> offered, and God accepted, may as well be reckoned to be without a Law, (and then it was a tranſ<g ref="char:EOLhyphen"/>greſſion:) for I will now ask the Author,
+<list>
+                     <item>1. What Law it was?</item>
+                     <item>2. When it was given?</item>
+                     <item>3. By whom it was given?</item>
+                     <item>4. To whom it was given?</item>
+                     <item>5. Where it was given?</item>
+                     <item>6. What Penalty for breaking it?</item>
+                     <item>7. What Reward was promiſed to thoſe that kept it?</item>
+                  </list>
+               </p>
+               <p>All theſe will be hard to be anſwerd: for in truth a Child may tye more Knots, then a Man can untye.</p>
+               <p>Secondly, As to his unlawful Accidents, I wonder why they are mentioned, whereas there is ſo little Congruity between an Act, and a ſubſequent Accident, that nothing ought to be concluded concerning any Act, from a fol<g ref="char:EOLhyphen"/>lowing Accident.</p>
+               <p>Again, I know none that pretend thoſe Marriages to
+<pb facs="tcp:59628:8"/>
+be the only cauſe that the World was drowned: (although they much diſpleaſed God) and therefore your Author might have ſpared his labour in diſproving it.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But to put all out of doubt, for the deciſion of the Controverſy, and that the Proofs may be more certain,<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> There is a plain queſtion ſtated as the Rule of the Diſ<g ref="char:EOLhyphen"/>courſe, <hi>(viz.)</hi> Whether a Contract of Marriage between two Perſons of different perſwaſions about Inſtitutions in matters of Religion being performed and continued in, be lawful or unlawful, what ſay you to this?</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>What doth he mean by Inſtitutions?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>By Inſtitutions, he means that part of Religion which is no way our Duty without a Command.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>That is, all parts of Religion; for there is nothing a Duty without a Command.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>No, it is but ſome part, (my Author ſaith) as under the Law, Circumciſion, the Paſſover,<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> 
+                  <hi>&amp;c.</hi> and un<g ref="char:EOLhyphen"/>der the Goſpel, Baptiſm, the Lord's Supper, and laying on of hands.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>And why not Repentance from dead Works, and Faith towards God?</p>
+               <p>In a word, I would know of you, (or your Author) what makes any thing a Duty but a Command?</p>
+               <p>And all things which are commanded as they are Du<g ref="char:EOLhyphen"/>ties, ſo they are Inſtitutions?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Why, are all Commands of God, Inſtitutions?</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>Yes ſurely, no Wiſeman will gainſay that.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Then the queſtion is not ſo plain, for the deciſion of the controverſy, as I thought it to be: for you will have it (according to your Explication of Inſtitutions) to be thus, <hi>(viz.)</hi> Whether a Contract of Marriage made between two Perſons of different perſwaſions, in all mat<g ref="char:EOLhyphen"/>ters of Religion, be lawful or unlawful?</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:59628:9"/>
+               <speaker>C.</speaker>
+               <p>That is the queſtion properly underſtood.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Then I think that I muſt anſwer, it is unlawful.</p>
+               <p>That is the moſt unequal Yoak that may be. That is worſe then for <hi>Iſrael</hi> to plow with an Ox and an Aſs to<g ref="char:EOLhyphen"/>gether.</p>
+               <p>This is an evil not to be born, this will hinder Pray<g ref="char:EOLhyphen"/>ers, this will diſhonour God, and hinder the bringing up of Children in the Fear of God.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>Then I have done, there is no need (I ſee) for me to tell you what I ſay to it.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>In truth the ſtating of the queſtion (as you explain it) deſides the matter.</p>
+               <p>But I preſume, the Author did not think ſo: I ſup<g ref="char:EOLhyphen"/>poſe he did not conſider that all Commands of God are In<g ref="char:EOLhyphen"/>ſtitutions.</p>
+               <p>Wherefore pray let us proceed, and give me an ac<g ref="char:EOLhyphen"/>count what you ſay to the following Diſcourſe, wherein we firſt find his anſwer to the Patriarch's Care in the Mar<g ref="char:EOLhyphen"/>riage of their Children.<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. 11.</note>
+               </p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>As to that Anſwer, it is much like the reſt. For 1.<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. 11.</note> He ſaith, good Men have done things for Examples to others, as <hi>Paul,</hi> 2 <hi>Theſſ.</hi> 3.8, 9. 1 <hi>Cor.</hi> 9. from <hi>verſe</hi> 1. to the 9. <hi>Nehem.</hi> chap. 5.15. <hi>Uriah,</hi> 2 <hi>Sam.</hi> 11.11. all which (ſaith the Author) did refuſe to do thoſe things they might lawfully do for Examples to o<g ref="char:EOLhyphen"/>thers. <hi>It ſeems your Author</hi> puts no difference between the Omiſſion of a lawful thing, and the Commiſſion of an unlawful: a lawful thing may be omitted for divers Rea<g ref="char:EOLhyphen"/>ſons, but no Reaſon will juſtify the doing an unlawful; and if that be done for an Example, it will be an evil Ex<g ref="char:EOLhyphen"/>ample: and if your Author ſuppoſeth that it was lawful for the Patriarchs to take the Daughters of <hi>Canaan</hi> for their Sons: it is a begging the queſtion, and he muſt give
+<pb facs="tcp:59628:9"/>
+us Leave not to believe him, until we ſee better proof. But in the next place he tells us, they might do it for the Love they had to their own Kindred, and the Diſeſteem they had of the unnurtured <hi>Cananites: It may be ſo,</hi> but as they might do it upon thoſe accounts, ſo they might not; this Anſwer is not poſitive, and therefore as uncer<g ref="char:EOLhyphen"/>tain, I will leave it.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But although he is not poſitive in this part of his Anſwer, yet he is in the next; for he ſaith,<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> he is ſure it was not upon the account of Religion, that <hi>Abraham</hi> and <hi>Iſaac</hi> took ſuch care of their Childrens Marriage.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>That indeed is a bold poſition without good Reaſon I am ſure: If <hi>Religion</hi> had not been the great (I will not ſay the only) Aim of <hi>Abraham,</hi> he would never have been ſo earneſt with his ſervant about his Son's Wife: and <hi>Iſaac</hi> and <hi>Rebecka</hi> muſt have Religion in their Eyes, otherways what meaneth theſe Words, <hi>Gen.</hi> 27.46. If <hi>Jacob</hi> take a Wife of the Daughters of <hi>Heth, ſuch as theſe</hi> which are the Daughters of the Land; <hi>[ſuch as theſe]</hi> hath reſpect to their qualifications, and what qualifications could that reſpect but a Religious?</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But he tells us it could not be Religion that was in their Eye, becauſe the Church was in <hi>Abraham</hi>'s houſe, and he needed not to have ſent ſo far for <hi>that:</hi>
+                  <note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> He could not want a Wife for his Son amongſt his own Servants. And touching <hi>Jacob,</hi> his Father <hi>Laban</hi> was an Idolater, and <hi>Rachel</hi> no leſs; a Daughter of <hi>Heth</hi> could not have done much worſe then ſhe, when ſhe ſtole her Father's Ima<g ref="char:EOLhyphen"/>ges, and framed a Lie to hide them.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>There may be many reaſons given why <hi>Abraham</hi> would not take a Wife to his Son from amongſt his Ser<g ref="char:EOLhyphen"/>vants: and if it was not from this Author, I ſhould think it ſtrange that it ſhould be concluded, that <hi>Abraham</hi> did
+<pb facs="tcp:59628:10"/>
+not (therein) reſpect Religion, becauſe he did not give one of his Servants to Wife to his Son.</p>
+               <p>And for <hi>Laban</hi> and his Family, ſurely <hi>Rebecka</hi> did not reckon them Idolaters, (ſuch as were the Daughters of the Land) when ſhe ſent her Son thither to prevent his taking <hi>ſuch a Wife:</hi> and he that obſerves <hi>Laban</hi>'s Saluta<g ref="char:EOLhyphen"/>tion unto, and his Entertainment of <hi>Abraham</hi>'s Servant, <hi>Gen.</hi> 24.31, 50. may be of <hi>Rebecka</hi>'s mind. It is true he had Images in his Houſe; that was his miſcarriage, as it was often found in <hi>Iſrael; Aaron</hi> was found guilty of making a <hi>Molten Calf, Exod.</hi> 32.4. God's ſelected People have many times been guilty of great defects: &amp; it will be hard for the Author to prove <hi>Rachel</hi> an Idolatreſs; ſhe might ſteal her Father's Images, becauſe ſhe diſliked that in her Father: yea it is probable ſhe had little Vene<g ref="char:EOLhyphen"/>ration towards them, whenas ſhe allowed them no better place then amongſt the Camels Furniture, <hi>Gen.</hi> 31.34. And for the Lie your Author ſo much condemns, ſure he forgets what <hi>James</hi> ſaith, <hi>In many things we offend all,</hi> chap. 3.2. Your Author would as ſeverely have ſaid, a Son of <hi>Belial</hi> could not have done worſe then <hi>David,</hi> and he would have condemned <hi>Iſaac</hi> with the like ſeverity, who, for as little reaſon (or leſs) than <hi>Rachel</hi> had, deny<g ref="char:EOLhyphen"/>ed his Wife, <hi>Gen.</hi> 26.7. yet a good and Religious Man, one beloved of God: But why do I thus Apologize for <hi>Rachel?</hi> 'Tis only to check your Author's ſeverity, who tells us a Daughter of <hi>Heth</hi> could not have done much worſe then ſhe in, framing ſuch a Lie to hide the Images.</p>
+               <p>But what Reſtitution your Author will make to <hi>Rachel</hi> I know not: ſurely he thinks the Pillar which <hi>Jacob<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ut upon her Grave, <hi>Gen.</hi> 35.20. will prevent her Reſur<g ref="char:EOLhyphen"/>rection, ſo that ſhe will never demand any: However I muſt charge him with falſhood in ſo accuſing <hi>Rachel,</hi> and
+<pb facs="tcp:59628:10"/>
+I think a falſe Accuſer is as bad, if not worſe, than a Liar. Theſe Circumſtances conſidered, for the awful reſpect which <hi>Rachel</hi> had to her Father, and the fear of his diſ<g ref="char:EOLhyphen"/>pleaſure, might ſomewhat mitigate her Fault; and ex<g ref="char:EOLhyphen"/>cuſe her from being as bad as the Daughters of <hi>Heth,</hi> if ſhe had been guilty of the Lie, as your Author chargeth her; but there is no Reaſon for his falſe Accuſation, ex<g ref="char:EOLhyphen"/>cept his paſſionate Zeal, which will be ſo far from extenu<g ref="char:EOLhyphen"/>ating, that it doth Aggravate his fault.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But you ſeem to juſtify <hi>Rachel,</hi> as if ſhe was not guilty of a Lie; ſo I do: for although your Author hath not learned that he ſhould not ſpeak evil of the Dead: I think my ſelf obliged to vindicate thoſe who are not able to ſpeak for themſelves: and therefore muſt put your Author to prove his Accuſation. I am ſure the Scrip<g ref="char:EOLhyphen"/>ture doth not charge her, ſhe did not ſay ſhe did not take them: what ſhe ſaid, is found, <hi>Gen.</hi> 31.35. <hi>Let it not diſpleaſe my Lord,</hi> (ſpeaking to her Father) <hi>that I can<g ref="char:EOLhyphen"/>not riſe up before thee, for the cuſtom of Women is upon me.</hi> You ſee here a prudential Excuſe, which ſhe offers to her Father; and he accepts: but wherein the Lie is, or whether it was ſo or no, I know none (except your Au<g ref="char:EOLhyphen"/>thor) that would have made a ſtrict Scrutiny concern<g ref="char:EOLhyphen"/>ing.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>Pray what ſay you to the Miſtakes he endeavours to diſcover, concerning the Texts alledged both in the Old and New Teſtament, againſt Mixt-Marriages?</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>I think the Miſtakes are on your Author's part.</p>
+               <p>For 1. He tells us thoſe Texts, <hi>Exod.</hi> 34.16. <hi>Deut.</hi> 7.3. <hi>Joſh.</hi> 23.12. are not Commands at all,<note place="margin">Fol<gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note> but Cautious relating to their prudent and politick Govern<g ref="char:EOLhyphen"/>ment. But by his Favour, they are more then Cauti<g ref="char:EOLhyphen"/>ous, for they are ſtrict Prohibitions, (Commands we do
+<pb facs="tcp:59628:11"/>
+not pretend) and ought to be obſerved ſtrictly: For if it be well weighed, what difference in theſe Words. <hi>Deut.</hi> 7.2. <hi>Thou ſhalt not make Marriages with them: and thou ſhalt not ſteal,</hi> chap. 5.19. I muſt ſay, what<g ref="char:EOLhyphen"/>ſoever is thus forbidden, the Prohibition makes it unlaw<g ref="char:EOLhyphen"/>ful to be done, and ſo a Sin: neither doth the Reaſon of the Prohibition abate the force, (as your Author ſuggeſts) but adds to the Weight thereof: for what Reaſon ſoever the God of Heaven forbiddeth any Act, we are not to queſtion him, what he forbids is unlawful: but when he is pleaſed not only to forbid, but to add (in Condeſcen<g ref="char:EOLhyphen"/>tion to us) a Reaſon, why we ſhould obſerve it: This is a double Reſtraint.</p>
+               <p n="2">
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 15.</note>2. What he ſaith about other Covenants, doth not leſſen the Fault: if God ſaith, <hi>Thou ſhalt not ſpare his Life,</hi> it is of the ſame force, as when he ſaith, <hi>Thou ſhalt not kill.</hi> You may perceive that in <hi>Saul</hi>'s ſparing (but) the Cattel of the <hi>Amalekites,</hi> 1 <hi>Sam.</hi> 15.21, 22, 23. Whatſo<g ref="char:EOLhyphen"/>ever is forbidden is Sin, and ſo accounted by the God of Heaven: for, <hi>Rebellion is as the Sin of Witchcraft, and Stubbornneſs is as Idolatry.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 14.</note>But it ſeems there is a great difference, for ſome things are evil in themſelves; but ſuch Marriages are not evil in themſelves: But God forbids them (our Author ſaith) by way of Prevention, becauſe it might open a Door to evil.<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 14.</note> 
+                  <hi>Thou ſhalt not make Marriages with them,</hi> ſaith the Lord, and why? (ſaith the Author) not be<g ref="char:EOLhyphen"/>cauſe it is a Sin ſo to do, but <hi>becauſe ſhe may draw away the Heart.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>It is well he is forced to confeſs that God forbids ſuch Marriages, and I am ſure whatſoever God forbids is evil in it ſelf, and a great Sin in thoſe who act it. The man that did but gather Sticks upon the Sabbath day
+<pb facs="tcp:59628:11"/>
+found it ſo, <hi>Numb.</hi> 15.5. And therefore I muſt check the Preſumption of your Author, who endeavours to extenuate the evil, and tels you the danger urged by the God of Heaven is only probable: <hi>It may open a Door to evil, thy Heart may be drawn away;</hi> when God himſelf is poſitive, <hi>Deut.</hi> 7.4. <hi>They will turn away thy Son from following me.</hi>
+               </p>
+               <p>But (as if this was not ſufficient) your Author will go further and vindicate the Fact, wherein (citing <hi>Joſhua</hi> 23.12.) he will not ſtick at wreſting (and adding to) the Scripture.</p>
+               <p>He ſaith,<note place="margin">
+                     <hi>Fol.</hi> 1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> (and would have <hi>Joſhua</hi> ſay) <hi>Know for a certain if thou cleave to this People, it will be a ſnare to thee;</hi> not a Sin in thee, not an Immorality in thee, but a ſnare to thee.</p>
+               <p>How <hi>dareſt thou ſay</hi> not a <hi>Sin,</hi> not an <hi>Immorality,</hi> when God hath poſitively forbidden it? Is it no Sin, no Immo<g ref="char:EOLhyphen"/>rality to tranſgreſs the Law of God?</p>
+               <p>How dareſt thou wreſt the words of <hi>Joſhua,</hi> doth not he reckon it a Sin, or where doth he lay it will be but a Snare? <hi>Add not unto his Words, leſt he reprove thee, and thou be found a Liar,</hi> Prov. 30.6. Doth not <hi>Joſhua</hi> ſay, <hi>If you in any ways go back (viz.) from loving God,</hi> ver. 11. <hi>and cleave unto the Remnant of theſe People, and make Marriages with them, Know for a certainty that the Lord your God will no more drive out the Nations from before you, but they ſhall be Snares and Traps unto you, and Scourges in your Sides, and Thorns in your Eyes, untill you periſh,</hi> Joſh. 23.12, 13. It ſeems <hi>Joſhua</hi> accounts ſuch Marriages <hi>a going back</hi> from loving God, which ſure is a <hi>Sin,</hi> yea, a Sin attended with a ſevere Commination, as aforeſaid.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But if all this be as you ſay, yet (it ſeems) this Prohibition only intended the Seven Nations in <hi>Canaan,</hi>
+                  <pb facs="tcp:59628:12"/>
+which <hi>Iſrael</hi> were to root out and deſtroy;<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. 16.</note> and therefore it was not general.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>That the Seven Nations were more particularly in<g ref="char:EOLhyphen"/>cluded, I grant, becauſe there was more danger through their Cohabitation, but that it only intended them; I won<g ref="char:EOLhyphen"/>der a wiſe Man ſhould pretend, but much more that he ſhould ſo forget himſelf, whenas himſelf confeſſeth Mar<g ref="char:EOLhyphen"/>riages with the <hi>Philiſtines</hi> were forbidden: and they were none of the Seven Nations, but a diſtinct People.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But to put all out of doubt, my Author tells us that he will prove,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. 17.</note> that the <hi>Jews</hi> were permitted to marry with other uncircumciſed Nations.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>That will do ſomething, (although not decide the Controverſie) but I fear his proofs are inſufficient; I will conſider them in order:</p>
+               <p>The Firſt is, becauſe the words of the Prohibition (or Caution ſaith he,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. 17.</note>) <hi>Deut.</hi> 7.1, 2, 3. expreſſeth no other People.</p>
+               <p>Is this ſound arguing? Muſt all things be lawful which are not expreſly forbidden? What think you of this? And beſides, may it not be forbidden in another place, al<g ref="char:EOLhyphen"/>though not in <hi>Deut.</hi> 7? muſt we be limited to thoſe Pro<g ref="char:EOLhyphen"/>hibitions? Ought we not to compare Scripture with Scrip<g ref="char:EOLhyphen"/>ture, according to the Example of <hi>Paul,</hi> 1 <hi>Cor.</hi> 2.12?</p>
+               <p>But Secondly, He tells us, there was a Toleration for the <hi>Jews</hi> to marry with the <hi>Ammonites, Moabites, Edo<g ref="char:EOLhyphen"/>mites</hi> and <hi>Egyptians,</hi>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. 17.</note> with alſo any People whom they ſhould conquer.</p>
+               <p>This I muſt confeſs is a new thing: but it is but one (I will not ſay) <hi>Doctors</hi> Opinion.</p>
+               <p>True it is ſaid, <hi>Deut.</hi> 23.3, 7. thoſe Nations were not ſo to be abhorred, but that after ſome Generations, they might <hi>enter into the Congregation of the Lord:</hi> But
+<pb facs="tcp:59628:12"/>
+it doth not allow Marriages with them, until they were admitted into the Congregation, which is plainly demon<g ref="char:EOLhyphen"/>ſtrated by the Complaint made in the days of <hi>Ezra,</hi> chap. 9.1, 2. <hi>That the People had taken Wives of the Cananites, Hittites, Perizites, Jebuzites, Ammonites, Moabites, Egyptians</hi> and <hi>Amorites:</hi> This alſo was in the days of <hi>Nehemiah,</hi> Chap. 13.23. <hi>Some of the</hi> Jews <hi>married Wives of Aſhdod, Ammon</hi> and <hi>Moab;</hi> theſe were more then the Seven Nations intended by your Author.</p>
+               <p>Yet, <hi>Ezra</hi> accounts it a Treſpaſs exceeding great, chap. 10.10. Saying, <hi>Ye have tranſgreſſed, and have taken ſtrange Wives to encreaſe</hi> (mark that) <hi>the Treſpaſs of Iſrael;</hi> he reckons it a <hi>Sin before God,</hi> chap. 9.4. A Breach of God's Command, <hi>ver.</hi> 10 to the 14th; A juſt Provocation of God's Anger: and <hi>Nehemiah</hi> did not only tell them of (yea, reprove them chap. 13.27. for) their great evil in ſo tranſgreſſing againſt God, in marrying <hi>ſtrange Wives;</hi> But, <hi>he curſed them, and ſmote ſome of them, and pluckt off their Hair, and made them ſwear by God, ſay<g ref="char:EOLhyphen"/>ing, ye ſhall not give your Daughters unto their Sons, nor take their Daughters unto your Sons, or for your ſelves,</hi> ver. 25.</p>
+               <p>It ſeems neither <hi>Ezra</hi> nor <hi>Nehemiah,</hi> who (we may well think) did underſtand the Law in this Caſe, (as well as your Author) were of his mind.</p>
+               <p>Again, touching the Captives, I conceive that is no<g ref="char:EOLhyphen"/>thing to the purpoſe.</p>
+               <p>You find a Direction in that caſe, <hi>Deut.</hi> 21.10, 11, 12. the Woman amongſt the Captives, whom any the People of <hi>Iſrael</hi> had a deſire to marry, <hi>She was to be brought home to the Man's houſe, her Head was to be ſha<g ref="char:EOLhyphen"/>ven, her Nails pared,</hi> &amp;c. and ſo <hi>one Month ſhe was to re<g ref="char:EOLhyphen"/>main.</hi>
+               </p>
+               <p>
+                  <pb facs="tcp:59628:13"/>Now, this was for her Inſtruction, and thoſe Ceremo<g ref="char:EOLhyphen"/>nies, as a demonſtration of her forſaking her former ways, and owning the true God: <hi>And after that, thou ſhall go in unto her, and be her Husband, and ſhe ſhall be thy Wife.</hi>
+               </p>
+               <p>Suppoſe a Chriſtian ſhould take a Woman, an Infidel into his houſe, and inſtruct her in the way of God: and ſhe thereupon receives Information, and receives the Truth in all things, and after that he takes her to Wife; Doth this reach the matter in queſtion?</p>
+               <p>But then, Thirdly, He pretends divers Examples of ſuch Marriages, to prove the lawfulneſs thereof, and ſome of them by Men moſt Eminent in the Church, who were never blamed for ſo doing.</p>
+               <p>Whereat I cannot a little wonder, what if you do not read that all were blamed who were therein guilty; do you expect Perſons to be particularly reproved, that in many Caſes cannot be found?</p>
+               <p>
+                  <note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>l.</hi> 18.</note>But to come to his Examples, that of <hi>Sheſhan,</hi> 1 <hi>Chr.</hi> 2.35. will not prove it lawful; I rather think, it is ta<g ref="char:EOLhyphen"/>ken notice of ſo particularly, as a Fault in him. Your Author may as well alledge the Example of <hi>Lot</hi>'s Daugh<g ref="char:EOLhyphen"/>ters, <hi>Gen.</hi> 19.32, 33, <hi>&amp;c.</hi> to prove the lawfulneſs of their Facts, and to juſtify the like in others. Pray where are they blamed? Yet, I hope your Author thinks them Blame-worthy.</p>
+               <p>As for <hi>Solomon</hi> who married <hi>Pharoah</hi>'s Daughter, is it not ſtrange your Author ſhould ſo paraphraſe upon it, to prove it lawful, when the holy Ghoſt ſets a Brand up<g ref="char:EOLhyphen"/>on him for it? 1 <hi>Kings</hi> 11.1, 2. But King <hi>Solomon (viz.</hi> notwithſtanding all his Glory, and the Kindneſs the God of Heaven ſhewed him; yet he offended, he ſin<g ref="char:EOLhyphen"/>ned againſt God: he) loved many <hi>ſtrange Women</hi> (toge<g ref="char:EOLhyphen"/>ther with the Daughter of <hi>Pharaoh) Women</hi> of the <hi>Moabites,
+<pb facs="tcp:59628:13"/>
+Ammonites, Edomites, Zidonians</hi> and <hi>Hittites,</hi> (and to put all out of doubt, it is ſaid, <hi>ver.</hi> 2. that theſe were) of the <hi>Nations,</hi> concerning which the Lord ſaid unto the Children of <hi>Iſrael, You ſhalt not go in unto them, neither ſhall they come in unto you.</hi> Here Marriages with the <hi>Edo<g ref="char:EOLhyphen"/>mites, Egyptians, Moabites</hi> and <hi>Ammonites</hi> are forbidden.</p>
+               <p>The ſame Anſwer will ſerve to the Example of <hi>David</hi> and <hi>Moſes;</hi> and the Author is ſtrangely miſtaken, to think that God juſtified <hi>Moſes</hi> in that Act, <hi>Numb.</hi> 12.4. No, God ſpeaks to <hi>Aaron</hi> and <hi>Miriam,</hi> and reproves them, becauſe they vilified <hi>Moſes</hi> as to his Office, <hi>ver.</hi> 2. <hi>Hath the Lord indeed</hi> (ſaith they) <hi>ſpoken only by Mo<g ref="char:EOLhyphen"/>ſes? Hath he not ſpoken alſo by us?</hi> Herein God takes his part; but his Marriage is paſt by; God doth not vindi<g ref="char:EOLhyphen"/>cate that, although much may be ſaid in his Excuſe. But ſince we are mentioning Examples, I will put your Au<g ref="char:EOLhyphen"/>thor in mind of one Example, <hi>(viz.) Ahab</hi> King of <hi>Iſrael,</hi> 1 <hi>King.</hi> 16.31. who took to Wife <hi>Jezebel,</hi> the Daughter of the King of the <hi>Zidonians;</hi> which, altho a thing too common, how laudable it was, may be eaſily perceived: for ſaith the Text, <hi>He did evil in the ſight of the Lord, above all that were before him. For he walked in the Sins of Jeroboam the Son of Nebat,</hi> and as if that had been a light thing, <hi>he took to Wife Jezebel, Daughter of Ethbaal King of the Zidonians:</hi> That was an Aggrava<g ref="char:EOLhyphen"/>tion of his Fault; this was a Sin attended with many o<g ref="char:EOLhyphen"/>ther evils. But,</p>
+               <p>Again, your Author ſaith,<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> the <hi>Jews</hi> were allowed to mar<g ref="char:EOLhyphen"/>ry with <hi>Edomites, Egyptians,</hi> &amp;c. and this he proves from what is ſaid, <hi>Deut.</hi> 23.7, 8. <hi>Thou ſhalt not abhor them; the Children begotten of them, ſhall enter into the Congregati<g ref="char:EOLhyphen"/>on in the third Generation.</hi>
+               </p>
+               <p>It is ſtrange what <hi>Conceit</hi> will do. What is this to the
+<pb facs="tcp:59628:14"/>
+                  <hi>Jews</hi> marrying with thoſe Nations? Is here any Allow<g ref="char:EOLhyphen"/>ance? Is there a Word ſpoken of ſuch Marriages? If any ſuch thing was intended, ſurely it was diſapproved; in that <hi>the Children were to be excluded the Congregation until the third Generation.</hi> Is this the Allowance your Author boaſts of? Concerning <hi>Moab</hi> and <hi>Ammon,</hi> of them it is ſaid, <hi>ver.</hi> 6. <hi>Thou ſhalt not ſeek their Peace or their Proſperity for ever:</hi> Theſe would be unkind as well as unlawful Marriages. Beſides, what is ſpoken of the Children of <hi>Moab</hi> and <hi>Ammon,</hi> is alſo ſaid of a Baſtard, <hi>ver.</hi> 2. ſo that in Truth to lye with an Harlot, comes with<g ref="char:EOLhyphen"/>in your Author's Allowance from thoſe Words.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But, doth not the Author give a ſufficient Anſwer to the Texts alleadged out of the New Teſtament? and if ſo, it is not much to us, although you could make what he hath already ſaid to be invalid.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>Touching thoſe, I will begin with his Anſwer to that place, 2 <hi>Cor.</hi> 6.14. (for what he ſaith before, doth not merit our Conſideration as to the matter in hand) wherein He ſaith,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 25.</note> he cannot but wonder that Text ſhould be urged. I commend him to endeavour to put his Adverſary out of conceit, that he may voluntarily lay down the Cudgels, for otherwiſe he can hardly force him, &amp; indeed I cannot but wonder that he ſhould ſo blow it off. If all ſhould be granted which he ſaith touching Church-communion, yet ſure it would not exclude Marriage. <hi>Be not unequally yoaked,</hi> ſaith the Text, that is in no Caſe whereof Marriage is one.</p>
+               <p>Yea, it is more then probable that the Apoſtle deſign'd it; for <hi>be not unequally yoaked;</hi> It is a Prohibition, and intends ſomething which is a Man's own Act; wherein I would know of your Author when it is ſaid in the Church of Chriſt, that a Member yoaks himſelf with an Unbeliever, only as to Church-Communion: An evil Per<g ref="char:EOLhyphen"/>ſon
+<pb facs="tcp:59628:14"/>
+winked at, will not come within that Prohibition.<note place="margin">Fol<gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note> Your Author ſaith it is plain, it reſpects the Church and their aſſembling, <hi>&amp;c.</hi> And tells us, it as plain, that where Per<g ref="char:EOLhyphen"/>ſons of different Religions have married, they have had notwithſtanding the ſame Agreement as to the Marriage-Bed, and other worldly Affairs, as others do enjoy, and ſometimes more to their Content and Profit: and therefore it cannot be this Relation which is reprehended in this Chapter.</p>
+               <p>Is not this the Man that before hath told us,<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> that Acts muſt not be judged by their accidental Events? and yet now <hi>therefore,</hi> ſaith he, Marriage is not intended, becauſe ſuch unequal Marriages are attended with the ſame Content and Profit as others: out of his own Mouth this Reaſoning may he judged unſound. But far<g ref="char:EOLhyphen"/>ther, I muſt tell him, one <hi>Swallow</hi> doth not make a <hi>Summer:</hi> if ſometime God bleſſed the Off-ſpring of <hi>Judah,</hi> by his Daughter <hi>Tamar;</hi> I hope your Author will not <hi>(therefore)</hi> plead for ſuch Acts: howſoever his mutual Content may be reckoned <hi>rara Avis,</hi>
+                  <note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> 
+                  <hi>&amp;c.</hi> He confeſſeth in the ſame mat<g ref="char:EOLhyphen"/>ter, he made himſelf Work for Repentance, and freely confeſſeth it to be his Folly: and notwithſtanding the mutual Enjoyments, and equal Contentment he boaſts of, he is forced to acknowledge that he ſaw by Experience,<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> the Inconveniency of ſuch a Marriage, which now he would vindicate; one would think his own Words may give a Solution to his Arguments in this Caſe.</p>
+               <p>But again, notwithſtanding your Author's, <hi>therefore,</hi> I conceive Marriage is intended, and an unequal Marriage with Unbelievers ſtrictly forbidden: I think I need not tell you Marriage is properly called <hi>Conjugium,</hi> and a Wife <hi>Conjuga</hi> from the yoaking together, &amp; not <hi>Church-Commu<g ref="char:EOLhyphen"/>nion;</hi> and that ſuch Marriages were then reckoned unequal
+<pb facs="tcp:59628:15"/>
+Yoaks, is apparent, and the Interrogations uſed by the A<g ref="char:EOLhyphen"/>poſtle in the following Words are, to ſtrengthen the Prohibition, that we may perceive the Illegality thereof, at<g ref="char:EOLhyphen"/>tended with great inconveniences: there being no true Fellowſhip, no pleaſant Communion, no Concord, but Prayers hindred, frequent Contentions, and the Inſtructi<g ref="char:EOLhyphen"/>on of Children in the fear of God impeded: This the Apoſtles urge. As alſo is found, when <hi>Paul</hi> argueth a<g ref="char:EOLhyphen"/>gainſt Fornication, (which your Author deteſts,) 1 <hi>Cor.</hi> 6.15. <hi>Shall I take the Members of Chriſt and make them the Members of an Harlot? God forbid: Know ye not that your Bodies are the Temple of the Holy Ghoſt? ver.</hi> 19. The ſame Argument as you find, 2 <hi>Cor.</hi> 6.16. <hi>Ye are the Temple of the Living God:</hi> wherefore let there be no Conjugali<g ref="char:EOLhyphen"/>ty with Unbelievers; God hath forbidden it, he deſires a godly Seed, <hi>Mal.</hi> 2.15. which cannot be expected from an unlawful Conjugality. In the next place, your Au<g ref="char:EOLhyphen"/>thor comes to that Text, 1 <hi>Cor.</hi> 7.39. where the Apoſtle ſaith of the Widow, ſhe is at liberty to marry whom ſhe will: (only) <hi>in the Lord;</hi> whereto his Anſwer is very ſtrange.<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 26.</note> In the firſt place he ſaith, he m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ght ask many Queſtions concerning it, as what it is <hi>to be in the Lord, (viz.)</hi> whether it may not reſpect a Perſon allowed of by the Lord? 2. Whether men are bound by the <hi>ſame Law?</hi> And then he poſitively denies the Word to be a Command, and endeavours to prove his denial: But he might have ſpared his Labour; for we ſay it is no Com<g ref="char:EOLhyphen"/>mand, but it is a ſtrict Limitation, which to ſurpaſs is a Sin; for the words plainly declare ſhe is not at <hi>Liberty,</hi> (God hath reſtrained her) from marrying any Perſon <hi>not in the Lord;</hi> and therefore ſuch a Marriage is that which God doth not willingly permit; it is a great Preſumption to tranſgreſs the Bounds which God hath ſet, which one
+<pb facs="tcp:59628:15"/>
+would think might deter any ſober Chriſtian from ſuch an Enterprize. But I muſt anſwer your Author's Que<g ref="char:EOLhyphen"/>ſtions. 1. What it is <hi>to be in the Lord?</hi> Whether it may not reſpect a Perſon allowed of by the Lord? This ſe<g ref="char:EOLhyphen"/>cond part of the Queſtion is ſoon anſwered, for you may perceive by what is aforeſaid, that God allowes of none but ſuch as are in the Lord, the Text plainly ſaith it <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>only in the Lord.</hi> Now who are thoſe? let the ſame Apoſtle anſwer, 2 <hi>Cor.</hi> 5.17. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>If any one be in Chriſt he is a new Creature;</hi> thoſe who are in Chriſt, are regenerate, they are in the Profeſſion of the Faith: whereupon <hi>Paul</hi> ſaith <hi>Rom.</hi> 16.7. <hi>Andronicus</hi> and <hi>Junius</hi> were <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>in Chriſt before me.</hi> To this I will add the Confeſſion of your Author, which may be a ſufficient Anſwer to himſelf, to marry <hi>in the Lord,</hi> i. e. in the Faith, a Brother,<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> a Member of the Church.</p>
+               <p>Now to his ſecond Queſtion, Whether Men are bound by the ſame Law? I muſt anſwer with the Apoſtle, that <hi>Male and Female are all one in Chriſt Jeſus,</hi> there is the ſame Law, as to the Limitation of Marriage for one, as to the other; which your Author himſelf obſerves, was al<g ref="char:EOLhyphen"/>ways ſo, and why he ſhould look for a particular Expreſ<g ref="char:EOLhyphen"/>ſion of Men here, I know not: whenas from the begin<g ref="char:EOLhyphen"/>ning they were reckoned as one; but howſoever it is well your Author is convinced, that there is a Law in this Caſe for Women to obſerve; which ſure he is, other<g ref="char:EOLhyphen"/>wiſe he would not have put the Queſtion, whether Men bound by the ſame <hi>Law,</hi>
+                  <note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> do acknowledge it to be a <hi>Law:</hi> from whence the Apoſtle urgeth his Limitation; and indeed he that conſiders it may perceive it was a Mat<g ref="char:EOLhyphen"/>ter out of doubt amongſt the primitive Churches. Can any imagine if the primitive Saints had been of your Au<g ref="char:EOLhyphen"/>thor's
+<pb facs="tcp:59628:16"/>
+mind, they would have thought it unlawful for Huſ<g ref="char:EOLhyphen"/>band and Wife to live together, after one of them was converted to the Faith? no ſurely. But they being all perſwaded, that in Marriages they were limited to ſuch as were in the Lord; they thereupon begin to doubt, whe<g ref="char:EOLhyphen"/>ther a Woman converted, was not to leave her unconver<g ref="char:EOLhyphen"/>ted Husband, and whether a Man converted, was not to put away his unconverted Wife. Hereupon they write to the Apoſtle <hi>Paul</hi> about theſe things; 1 <hi>Cor.</hi> 7. and he returns Anſwer, that if <hi>one were called in a married State, he or ſhe ſhould ſo abide and not part one from another,</hi> ver. 12, 13. But when they were unmarried, then the former Reſtraint took place, to marry <hi>only in the Lord.</hi>
+               </p>
+               <p>In the next place, I muſt take notice of what your Au<g ref="char:EOLhyphen"/>thor ſaith concerning the Advice of the Apoſtle, as to <hi>that time;</hi> unto which he would have the Words of the Text refer, to take away the Force thereof.</p>
+               <p>But herein it is ſtrange, he ſhould be ſo miſtaken. That there are ſome things ſo offered by the Apoſtle, in that Chapter I confeſs, and that we may not be at a loſs, the Apoſtle tells you which they be; but in many things he declares not only his own Judgment, but alſo the will of God; and the ſame is apparent in the Text, where the A<g ref="char:EOLhyphen"/>poſtle ſpeaks poſitively, ſhe is at liberty to marry, <hi>only in the Lord:</hi> wherein I hope every prudent Chriſtian will rather apprehend themſelves bound by ſuch a Limitation, than to take Liberty from the Opinion of your Author, who is ſo inconſiſtent with himſelf, that we may fear it pro<g ref="char:EOLhyphen"/>ceeds from the Spirit, that did endeavour to vindicate our Firſt Parents eating the forbidden Fruit.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But I am not yet ſatisfied, for the Author tells you, That if ever there was any ſuch Law, that a Widow might marry with none but one in the Church; then it is either
+<pb facs="tcp:59628:16"/>
+given by the way of Precept, or by the way of Prudence.<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> If it be by the former, then it is ſome where to be found amongſt God's Commands; and then I pray ſhew when it was given, and by whom, and where the Record is to be found, that we may have recourſe thither, for our fur<g ref="char:EOLhyphen"/>ther ſatisfaction; wherefore pray ſhew me theſe things, and I will conſent to you.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>Your Author is very wiſe, I preſume he may be able to convince any rational Perſons of the truth of all his Opinions, for <hi>as one would think</hi> by what he ſaith, he hath plain Scripture Precepts for what he believeth; ſo he is able to ſhew his Adverſary where the Record is to be found, that to ſatisfy all Scruples they may have recourſe thither. I wonder the difference about <hi>laying on of Hands</hi> ſhould ſo long continue between the Author and his Brethren: ſurely your Author hath been too blame, that all this time he hath not ſhewn them the Record of the Precept in that Caſe, that they might have had Recourſe thither to have ſeen, when and by whom it was given, for their ample Satisfaction; for I cannot believe it would have been with<g ref="char:EOLhyphen"/>ſtood if your Author had done this.</p>
+               <p>But to return to the Matter; your Author ought not to queſtion whether there be ſuch a Law concerning Wi<g ref="char:EOLhyphen"/>dows: for he believs that, otherwiſe why doth he queſtion whether Men are bound by the ſame <hi>Law,</hi>
+                  <note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> ſeeing the A<g ref="char:EOLhyphen"/>poſtle ſpeaks only of Women? if he did not think there was <hi>a Law</hi> by which Women were bound, <hi>(viz.)</hi> Wi<g ref="char:EOLhyphen"/>dows, to marry only in the Lord: what means that Ex<g ref="char:EOLhyphen"/>preſſion of his <hi>by the ſame Law?</hi> wherefore one would think there needed no further Enquiry concerning the Record for your Author's ſatisfaction.</p>
+               <p>Again, Give me leave to tell your Author; there may be a Law in this Caſe, which may not be given by way of
+<pb facs="tcp:59628:18"/>
+Precept, yet of as great force: for it is by way of Prohi<g ref="char:EOLhyphen"/>bition, <hi>(be not unequally yoaked)</hi> and by way of Limitati<g ref="char:EOLhyphen"/>on; as in the Text alledged, ſhe is at liberty to marry <hi>only in the Lord;</hi> wherein it it eaſy to be found by whom this was made, the Time when, and where the Record is to be found: and yet all this conſiſting with the Law of Prudence; for our God was prudent in all and every part of his Laws.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I pray give me leave to proceed a little farther, for if I miſtake not, the beſt is at at laſt, and there are ſuch Anſwers given to the pretended Puniſhments inflicted by God for ſuch Marriages, as every Man muſt confeſs are very weighty.</p>
+               <p>For 1. Our Author ſheweth it was for Idolatry, and not for marrying with Perſons of other Religions, that they were puniſhed.</p>
+               <p n="2">2. The Puniſhments were ſo far from being inflicted up<g ref="char:EOLhyphen"/>on the account of Marriage, that <hi>Iſrael</hi> were permitted to marry with <hi>Egypt, Ammon, Moab,</hi> &amp;c.</p>
+               <p n="3">3. The Command was only a prudential Command.</p>
+               <p n="4">4. It was a prevailing evil at that time, which induced the <hi>Scribes</hi> ſo much to oppoſe it.</p>
+               <p>And Laſtly, That none of the Inſtances given decide the Controverſy, (which is about Perſons differing about Inſtitutions in matters of Religion) for in all the Inſtan<g ref="char:EOLhyphen"/>ces alledged, the difference is about the moral part of Re<g ref="char:EOLhyphen"/>ligion; what can you ſay to theſe things?</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>
+                  <note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>l.</hi> 52.</note>I ſay, with you, The beſt is at laſt, for your Author gives (and that for divers Reaſons by himſelf urged) this Advice <hi>(viz.)</hi> As you tender your own Peace, your Re<g ref="char:EOLhyphen"/>putation, the Honour of God and Religion, make your choice in the Church: What more can be ſaid? if our Peace, our Reputation, the Honour of God, and our
+<pb facs="tcp:59628:18"/>
+Religion is concerned? We may then conclude, it is unlawful to do that which deſtroys all theſe, and (what<g ref="char:EOLhyphen"/>ſoever your Author pretends) if this was not, yet it de<g ref="char:EOLhyphen"/>ſerved to be ſeverely puniſhed.</p>
+               <p>But I will proceed, to give ſome reply to thoſe things which you think are very weighty; and Firſt, Whereas your Author pretends it was only for Idolatry that the People were puniſhed; this is a nice Diſtinction, as if a Drunkard ſhould be puniſhed for Spewing, and not for Drinking ſo exceſſively to occaſion it. That they were puniſhed for Idolatry is true; but muſt the occaſion there<g ref="char:EOLhyphen"/>of be excuſed? ſurely no, your Author (in this Caſe) forgets we are to avoid all Appearances of evil; but more, thoſe Marriages were the <hi>Cauſe</hi> of Evil, Idolatry was the Effect thereof, which alſo God had foretold would enſue: beſides, why are thoſe Marriages mentioned and complained of when the Puniſhments are recited, if the Holy Ghoſt did not intend, that we ſhould conſider thoſe Puniſhments were for that Evil? But to come to a parti<g ref="char:EOLhyphen"/>cular reply, your Author ſaith in Anſwer to that Puniſh<g ref="char:EOLhyphen"/>ment mentioned <hi>Numb.</hi> 25.4. (1.) That <hi>they were not married, but committed Whoredome with the Daughters of the Land.</hi> (2.) That the crying Sin which diſpleaſed God was their <hi>Idolatry: Slay ye every one his Man, that was joyned unto Baal-Peor,</hi>
+                  <note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> not (ſaith your Author) thoſe that were married, but thoſe who were joyned unto <hi>Baal-Peor.</hi>
+               </p>
+               <p>A prudent Anſwer! for Firſt he tells us they were not married, and then ſaith, God was not diſpleaſed with thoſe who were married, when it ſeems <hi>(if it be as he ſaith)</hi> there were none married. But again, if his diſpleaſure was for their joyning with <hi>Baal-peor,</hi> and limited to that, I
+<pb facs="tcp:59628:17"/>
+muſt then ſay, it was not for committing Whoredom with the Daughters of <hi>Moab,</hi> and ſo juſtify that as well as your Author doth their Marriages: But in truth God was diſpleaſed with both thoſe things.</p>
+               <p>They firſt joyned themſelves with the <hi>Daughters</hi> of <hi>Moab;</hi> (in Marriage ſaith <hi>Joſephus,</hi> who we may believe had as true account of that affair as your Author) and then were enticed to ſacrifice to <hi>Baal-Peor,</hi> theſe occaſio<g ref="char:EOLhyphen"/>ned the diſpleaſure of God: This is apparent by many Demonſtrations, but particularly ver. 6. <hi>Behold one of the Children of Iſrael brought into the Congregation a Midiani<g ref="char:EOLhyphen"/>tiſh Woman, in the ſight of Moſes, and in the ſight of all the Congregation of Iſrael:</hi> (by your Author's leave) this de<g ref="char:EOLhyphen"/>monſtrates as much a Marriage as was uſed in thoſe days: and I may argue, that they would not have been ſo pub<g ref="char:EOLhyphen"/>lick, if they had not been married. 2. The Woman was a Daughter of the Prince of <hi>Moab;</hi> and we may well ima<g ref="char:EOLhyphen"/>gine would not have conſented to have left her People, to come into the Congregation of <hi>Iſrael,</hi> and into the Man's Tent, if he had not taken her to Wife. It is very probable ſome might not be married, (and commit Whoredom) but that others (yea many of them) might be married, which was alſo diſpleaſing to God, and might be reckoned in reſpect of the Illegality, Fornication; that Man that took his Father's Wife, (to be his Wife as it is thought) committed therein Fornication, <hi>(viz.)</hi> Whoredom, 1 <hi>Cor.</hi> 5.1. This was the Fault which <hi>Phineas</hi> avengeth by the Death of them both <hi>ver.</hi> 8. there was nothing of <hi>Peor</hi> then mentioned: yet in truth it was for both, <hi>(viz.)</hi> their Marriages, and their Idolatry; this is plain, <hi>ver.</hi> 18. the matter of <hi>Peor,</hi> (which was their Idolatry) and the matter of <hi>Cozbi</hi>
+                  <pb facs="tcp:59628:17"/>
+the Name of the Daughter of the Prince of <hi>Midian</hi>) which was their joyning in Affinity with the Daughters of <hi>Moab.</hi>
+               </p>
+               <p>The ſecond Inſtance of Puniſhment in this Caſe is, from <hi>Judg</hi> 3. whereto in Anſwer, your Author tells his Antagoniſt, that he forgot the laſt Clauſe, of the ſixt <hi>verſe, and ſerved their Gods:</hi> but ſurely if he had not forgotten the firſt Part of the <hi>verſe;</hi> which ſaith they took their Daughters to be their Wives, and gave their Daughters to their Sons; he would not have denied the Puniſhment to be inflicted for ſtrange Marriages, which ſurely was. Here was, amongſt o<g ref="char:EOLhyphen"/>ther, two great Sins committed by <hi>Iſrael,</hi> (viz.) <hi>mar<g ref="char:EOLhyphen"/>rying ſtrange Wives,</hi> and <hi>ſerving ſtrange Gods: for both theſe, the Anger of the Lord waxed hot; and he ſold them into the hands of the King of Meſopotamia.</hi> Nothing can be more clear; it is the ſame we find concerning <hi>Ahab,</hi> 1 <hi>King.</hi> 16.31. It is true he ſerved <hi>Baal;</hi> but the God of Heaven firſt reckons his Marriage with <hi>Jezebel,</hi> as the Aggravation of his Sin.<note place="margin">Fol<gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note>
+               </p>
+               <p>The next Inſtance of Puniſhment which your Author would avoid is, touching <hi>Solomon,</hi> 1 <hi>King.</hi> 11.11. wherein he tells us, <hi>Solomon</hi> was not threatned for his Marriages, much leſs puniſhed: Nay he ſaith, he was not in the leaſt reproved for it, or warned about it as his <hi>Evil.</hi> He was married (ſaith your Author) many Years to his ſtrange Wives, yet not reproved for that; But when he became guilty of Idolatry, then God reveals his Diſpleaſure, and not before.</p>
+               <p>Here is indeed a fair Tale; but that the Vanity there of may appear, I muſt tell you, <hi>Solomon</hi> did ſin in thoſe Marriages; and then every wiſe Man will grant there were Reproofs and Threatnings ſufficient in the Law, except your Author is of the <hi>Rich Man</hi>'s mind, <hi>Luke</hi> 16.
+<pb facs="tcp:59628:19"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb facs="tcp:59628:19"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb facs="tcp:59628:20"/>
+30. that thought nothing prevalent unleſs one was ſent either from Heaven or Hell to give Warning.</p>
+               <p>Now the Sin of <hi>Solomon</hi> is apparent; 1 <hi>King.</hi> 11.1. But King <hi>Solomon</hi> (as if the Holy Ghoſt would have you take notice, that the Glory and Honour of <hi>Solomon</hi> was much eclipſed, in that he) <hi>loved many ſtrange Women, (together with the Daughter of</hi> Pharaoh,) <hi>of the Moabites, Ammonites, Edomites, Zidonians and Hittites, of the Nati<g ref="char:EOLhyphen"/>ons concerning which, the Lord ſaid to Iſrael, Ye ſhall not go in unto them; Solomon</hi> clave to theſe in Love. Now what can be more plain than this, that the Women of the <hi>Moabites, Ammonites, Edomites, Zidonians</hi> and <hi>Hittites,</hi> together with the Daughter of <hi>Pharaoh,</hi> (who was an <hi>Egyptian</hi>) to whom <hi>Solomon</hi> clave in Love, were of the People concerning whom the Lord ſaid, <hi>ye ſhall not go in unto them,</hi> the Text plainly ſaith it; and then ſure<g ref="char:EOLhyphen"/>ly it was a great Evil in <hi>Solomon,</hi> ſo to tranſgreſs the Word of God. I will add the Words of <hi>Nehemiah,</hi> chap. 13.26. <hi>Did not</hi> Solomon <hi>ſin by theſe things?</hi> This was the beginning of his Sin, and his Idolatry ſucceeded: for both which, God was diſpleaſed, and his Repetition of (and continuing in) Sin, provoked God to rend the Kingdom from him, after much Patience and Forbear<g ref="char:EOLhyphen"/>ance.</p>
+               <p>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 33.</note>The laſt inſtance is, of the <hi>Jews</hi> in the days of <hi>Ezra,</hi> and <hi>Nehemiah;</hi> wherein your Author tells us, that men<g ref="char:EOLhyphen"/>tion was made of the <hi>Jews</hi> marrying with <hi>Moab, Ammon</hi> and <hi>Egypt:</hi> but that was not reckoned as their Sin, but much of the contrary.</p>
+               <p>
+                  <hi>What have we here?</hi> We need not ſpeak further of the unlawfulneſs of ſuch Marriages: for now your Author tells us they are more than lawful, <hi>(viz.)</hi> very good, and
+<pb facs="tcp:59628:20"/>
+righteous, for they are much <hi>contrary</hi> unto Sin. Then he proceeds and tells you, whereas it is ſaid, <hi>Nehemiah contended with them, and curſed them, and ſmote ſome of them.</hi> It is true, ſaith your Author, he contended with ſome Body: But with whom?<note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> Not (ſa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>th he) with thoſe that married Wives of <hi>Moab</hi> and <hi>Ammon,</hi> but with thoſe that married Wives of <hi>Aſhdod.</hi>
+               </p>
+               <p>Indeed your Author in his Epiſtle reckons himſelf un<g ref="char:EOLhyphen"/>learned, and beggs Excuſe upon that account: But I did hope he would not have appeared ſo unlearned, as to wreſt the Scriptures at this rate, as he if knew not what he ſaid. I will again enquire, (but not of your Author) who <hi>Ne<g ref="char:EOLhyphen"/>hemiah</hi> did contend with? And he himſelf will inform us, chap. 13.23. <hi>In thoſe days he ſaw Jews that had mar<g ref="char:EOLhyphen"/>ried Wives of Aſhdod, of Ammon, and of Moab; and he con<g ref="char:EOLhyphen"/>tended with them, and curſed them,</hi> &amp;c. Who were they? No man that underſtands his Native Tongue will be of your Author's mind, Whom I will now ask, why <hi>Nehe<g ref="char:EOLhyphen"/>miah</hi> ſpeaks of <hi>Ammon</hi> and <hi>Moab?</hi> Why doth he ſay he took notice of the <hi>Jews</hi> that had married Wives of <hi>Am<g ref="char:EOLhyphen"/>mon</hi> and <hi>Moab?</hi> Why, doth he mention them in this mat<g ref="char:EOLhyphen"/>ter more than thoſe who had married Wives of <hi>Iſrael,</hi> if he did not intend that thoſe <hi>Jews</hi> which married the Daughters of <hi>Ammon</hi> and <hi>Moab,</hi> ſhould be included in his Curſe and Reprehenſion? ſurely it was <hi>Nehemiah</hi>'s Intention; <hi>he curſed them, and did account it a great Ev<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>l,</hi> and <hi>tranſgreſſion againſt God to marry ſtange Wives,</hi> 1 ver. 27. And tells you, <hi>Solomon</hi> King of <hi>Iſrael</hi> (hujuſcemodi peccavit) <hi>ſinned after the ſame manner,</hi> ver. 26.</p>
+               <p>Again, Let me ask your Author, why mention was made of <hi>Moab, Ammon</hi> and <hi>Egypt,</hi> by <hi>Ezra</hi> upon this oc<g ref="char:EOLhyphen"/>caſion, if it were no Sin to joyn in Marriage with them.</p>
+               <p>
+                  <pb facs="tcp:59628:21"/>But if you will believe <hi>Ezra</hi> himſelf, chap. 9.1, 2. he tells you that he was ifnorm'd, that <hi>Iſrael had not ſeparated them<g ref="char:EOLhyphen"/>ſelves from the People of the Lands, (viz.)</hi> the <hi>Canaanite,</hi> the <hi>Hittite,</hi> the <hi>Perizzite,</hi> the <hi>Jebuſite,</hi> the <hi>Ammonite,</hi> the <hi>Moabite,</hi> the <hi>Egyptian,</hi> and the <hi>Amorite:</hi> for they <hi>(viz.</hi> the <hi>Iſraelites) have taken of their Daughters for themſelves, (viz.</hi> the Daughters of all the aforementioned People) and <hi>for their Sons;</hi> ſo that the <hi>Holy Seed have mingled themſelves with the People of thoſe Lands:</hi> it was <hi>theſe ti<g ref="char:EOLhyphen"/>dings</hi> that made him rend his Cloaths and ſit aſtoniſhed, <hi>ver.</hi> 3. and this Affinity he confeſſeth to God, <hi>ver.</hi> 13, 14. as a great Treſpaſs, and a Sin of great Provocation, chap. 10.2, 10. Wherefore I muſt conclude with <hi>Ezra, God puniſhed them for their ſtrange Marriages,</hi> chap. 9.13. notwithſtanding your Author's Word. Beſides, I cannot but wonder at your Author, ſo to limit <hi>Nehemi<g ref="char:EOLhyphen"/>ah</hi>'s Contention, <hi>(viz.)</hi> that it was only with thoſe that married Wives of <hi>Aſhdod,</hi>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 34.</note> which, if granted, will ſtand him in no ſtead: for <hi>Aſhdod,</hi> a City of the <hi>Philiſtines,</hi> was no part of the Seven Nations, which <hi>Iſrael</hi> were commanded to deſtroy. If your Author will conſent to the Relation of the Scripture, he will find it ſo, <hi>Deut.</hi> 7.7. Where they are reckoned up: 1. the <hi>Hittites,</hi> 2. the <hi>Girgaſhites,</hi> 3. the <hi>Ammonites,</hi> 4. the <hi>Canaanites,</hi> 5. the <hi>Perizzites,</hi> 6. the <hi>Hivites,</hi> 7. the <hi>Jebuſites, ſeven Nations greater and mightier than thou;</hi> which alſo is found exactly, <hi>Joſh.</hi> 3.11. but here are none of the <hi>Philiſtines</hi> mentioned or intended, ſo that all your Author's Evaſion falls to the ground: for in truth the <hi>Philiſtines</hi> were another People diſtinct from the <hi>Seven Nations,</hi> and always ſo account<g ref="char:EOLhyphen"/>ed, and by your Author's favour were not of the Chil<g ref="char:EOLhyphen"/>dren of <hi>Anak,</hi> who were <hi>Hittites.</hi> His proof <hi>Joſh.</hi> 11.22.
+<pb facs="tcp:59628:21"/>
+is too weak; that only informs you that ſome of the Chil<g ref="char:EOLhyphen"/>dren of <hi>Anak</hi> eſcaped <hi>Joſhua</hi>'s Sword, and dwelt amongſt the <hi>Philiſtines</hi> in <hi>Gaza, Gath</hi> and <hi>Aſhdod.</hi>
+               </p>
+               <p>Now to his ſecond thing, that <hi>Iſrael</hi> were permitted to marry with <hi>Edom, Egypt, Ammon</hi> and <hi>Moab,</hi>
+                  <note place="margin">Fol. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </note> and ſo it was far from being a Sin in them: I cannot but wonder that your Author who ſometimes is ſo exact, that he muſt know, when, where, by whom, and to whom <hi>&amp;c.</hi> a Law is given, ſhould preſume to affirm ſuch a Permiſſion.</p>
+               <p>I would now know of your Author, when, and where it was permitted, and by whom, and where the Record is to be found, that we may have recourſe thither for our further ſatisfaction; for we are not ſatisfied with what your Author ſaith in that Caſe, his words are not of ſuch weight to convince me; and his only Text which I find him mention is, <hi>Deut.</hi> 23.3. wherein I find no Tolera<g ref="char:EOLhyphen"/>tion for Marriages with <hi>Edom, Ammon, Moab</hi> and <hi>Egypt</hi> Recorded: Nay, it is ſo far from being there found, that it doth not once mention any Marriage: It is ſaid of <hi>Edom</hi> and <hi>Egypt, Their Children ſhould enter into the Congregation of the Lord in the third Generation;</hi> but what that is to Marriage, I do not underſtand: but if it was, what is it to <hi>Ammon</hi> and <hi>Moab,</hi> (ſo ſuch pleaded for by your Author) concerning whom it is ſaid, <hi>ver.</hi> 6. <hi>Thou ſhalt not ſeek their Peace or their Proſperity for ever?</hi> Surely no Marriage was permitted with them.</p>
+               <p>I perceive your Author is ſometimes content with ſlight proofs, although at other times he is ſo exact; but if it were ſo, the <hi>Philiſtines,</hi> by your Author's Confeſſion, were exempted, and it hath been ſhewn before, they were none of the <hi>Seven Nations,</hi> ſo that his Foundation is removed, and thereby his Building fallen.</p>
+               <p>
+                  <pb facs="tcp:59628:22"/>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 34.</note>I come now to his third Matter, <hi>(viz.)</hi> that the Com<g ref="char:EOLhyphen"/>mand in this Caſe was only prudential.</p>
+               <p>I think I have now done; your Author confeſſeth it <hi>a Command of God,</hi> that <hi>Iſrael</hi> ſhould <hi>abſtain from marry<g ref="char:EOLhyphen"/>ing with thoſe Nations,</hi> and then it was a Law which ought not to be broken: but ſeeing himſelf in a ſnare, he ſaith, by Command we are to underſtand ſuch Commands as are prudential.<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 35.</note> I readily grant that, and further ſay, all God's Commands are ſo; and the Reaſon he inſiſts up<g ref="char:EOLhyphen"/>on, adds to the weight thereof. As alſo, what in the next place he alledgeth, where he confeſſeth it to be a prevailing Evil (ſurely he forgot himſelf) which did endanger the State,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 35.</note> and tells us when an Evil came ſo much into faſhion, it was time to take ſome ſpeedy courſe to ſuppreſs it,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 36.</note> as we ſee they did; and how was that? Was it not to ſuppreſs Marriages made with <hi>Am<g ref="char:EOLhyphen"/>mon, Egypt, Moab, Edom?</hi> &amp;c. and good reaſon they had; for (as your Author hath now at laſt acknow<g ref="char:EOLhyphen"/>ledged) it was contrary to God's Command.</p>
+               <p>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 36.</note>The next and laſt thing urged is, That none of the In<g ref="char:EOLhyphen"/>ſtances alledged decide the Controverſy; becauſe their Differences were only about Morals, and not Inſtituti<g ref="char:EOLhyphen"/>ons.</p>
+               <p>But this alſo is like the reſt; as if Morals were not Inſtitutions, and Inſtitutions Morals; (is not Baptiſm a moral Precept in the Goſpel given unto Chriſtians?) which when your Author hath better defined and diſtin<g ref="char:EOLhyphen"/>guiſhed, he may hear more.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I give you thanks for this trouble, and now I per<g ref="char:EOLhyphen"/>ceive the Arguments and Anſwers not ſo weighty as I did apprehend? I would now farther deſire you to let me have your Opinion concerning the ſecond part of the Dialogue,
+<pb facs="tcp:59628:22"/>
+touching the Cenſure of the Church for Mixt-Marriages, wherein the Author propounds a Queſtion, <hi>(viz.)</hi> Whether if ſuch Contracts of Marriage as have been de<g ref="char:EOLhyphen"/>bated, be proved unlawful, the Church then hath power to Excommunicate Perſons for the ſame?</p>
+               <p>This the Author denies, (and ſaith the Church hath no ſuch power,) becauſe (ſaith he) there is neither Pre<g ref="char:EOLhyphen"/>cept, nor Example for it.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>My Opinion you ſhall know, and you may eaſily perceive it, <hi>(viz.)</hi> that I think your Author is miſtaken, although he is ſo exact as to require a Precept or Example as to every Sin; which in many Caſes (he knows) cannot be found. What Precept or Example is there for any Church to Excommunicate their Brethren that do not ſub<g ref="char:EOLhyphen"/>mit to laying on of Hands? What Precept or Example have you to Excommunicate thoſe who ſhall baptize their Children? <hi>Cum multis aliis quae nunc preſcribere l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ngam eſt.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But the Author diſtinguiſheth in this Caſe between things that are plain and out of diſpute,<note place="margin">F<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g> 
+                     <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </note> and the Caſe in hand which is ſo diſputable, that the greateſt Skill cannot convince him of the Evil.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>This is but a Flouriſh; when he looketh ſeriouſly into his Conſcience, he then will tell you and the World, it was an Evil in himſelf, and made <hi>work for Repentance,</hi>
+                  <note place="margin">F<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g> 
+                     <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </note> and it was an Evil in the <hi>Jews</hi> alſo: But what,<note place="margin">F<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g> 
+                     <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </note> are not the aforementioned things as diſputable as Mixt-Marria<g ref="char:EOLhyphen"/>ges? Are not Men as hard to be convinced thereof, al<g ref="char:EOLhyphen"/>though great Skill is uſed? But we are not now to con<g ref="char:EOLhyphen"/>vince your Author of the Evil, but to examine whether, if it be a Sin, the Church hath power to Excommunicate, <hi>&amp;c.</hi>
+               </p>
+               <p>Now ſurely if it be a Sin, an unlawful Act, the Church hath power to deal with thoſe which are guilty thereof; however to reprove them; whereto if they will not hear<g ref="char:EOLhyphen"/>ken,
+<pb facs="tcp:59628:23"/>
+but perſiſt obſtinately againſt the Advice of the Church, ſuch a one is to be rejected as an Heathen, <hi>(viz.)</hi> ſeparated from the Communion of the Church: which Rule is general as to all unlawful Acts, otherwiſe Church-Diſcipline would ſoon fall to the ground. And therefore what your Author ſpeaks as to the degrees of Sin, is not to be conſidered here; for every Sin whereby God is diſho<g ref="char:EOLhyphen"/>noured, and the Brethren grieved, if it be attended with an Heart hardened againſt Reproof, it is thereby ſo ag<g ref="char:EOLhyphen"/>gravated, that it is within the greateſt Cenſure of the Church; whenas the greateſt Sin (ſimply conſidered in it ſelf) attended with ſpeedy Repentance ought by the Church to be forgiven. So that in truth your Author is at a loſs here, he hath not well learned upon what account Church-Cenſures are to be paſſed: the end whereof is for <hi>Edification,</hi> and not for <hi>Deſtruction,</hi> 2 <hi>Cor.</hi> 13.10.</p>
+               <p>As touching his Obſervation, That God did at all times bear with the Breach of his poſitive Law, when it fell in Competition with his Moral Law: I will only ſay that the God whom I ſerve, is a God of that Foreknowledge and Wiſdom, that he never makes a poſitive Law that falls in Competition with his Moral Laws.</p>
+               <p>That God is not always ſevere to puniſh, I grant, yea many times (touching the matter in hand) <hi>be puniſheth Men,</hi> (as <hi>Ezra</hi> ſaith, chap. 9.13.) <hi>leſs than their Ini<g ref="char:EOLhyphen"/>quity deſerueth.</hi> But for God's Laws to be in Competition I underſtand not. I am ſure the Diſciples <hi>plucking the Ears of Corn</hi> was againſt no poſitive Law<g ref="char:punc">▪</g> and how in the Caſe of <hi>David</hi> when he did <hi>eat the Shew-Bread,</hi> or in the Caſe of the <hi>Gibeonites</hi> mentioned by your Author, how God's poſitive Law was againſt his Moral Law, I perceive not?</p>
+               <p>I conceive your Author's Zeal to ſurpaſs (in this thing)
+<pb facs="tcp:59628:23"/>
+his Knowledge, otherwiſe he would not have taken ſo much pains to ſo little purpoſe, as he hath in his ſecond part of his Dialogue. And at laſt to adviſe, that if Per<g ref="char:EOLhyphen"/>ſons be Excommunicated, they ſhould joyn themſelves with another Church of their own Profeſſion, where he ſaith, they may be entertained.</p>
+               <p>I am ſure this will make the Churches to be in Compe<g ref="char:EOLhyphen"/>tition, and doth deſign the overthrow of all Order, and the ſlighting of all Church-Diſcipline, which the God of Or<g ref="char:EOLhyphen"/>der and Mercy prevent.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>I have heard you patiently, and do perceive now that there is a great miſtake about the Cauſe of Church-Cenſures, and the Weight of them when paſſed.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>There is ſo, and this is of evil Conſequence; ſome are puffed up and vaunt themſelves in evil; thinking (with your Author) the Church hath no power to deal with them: or again, if ſo (they boaſt) they can joyn with o<g ref="char:EOLhyphen"/>thers, and be lovingly accepted.</p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But I perceive (by what you have ſaid) the leaſt Offence deſerveth Church-Cenſures, if it be attended with Obſtinacy.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>Our Saviour ſaith the ſame, <hi>If thy Brother treſpaſs a<g ref="char:EOLhyphen"/>gainſt thee<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>,</hi> and therefore much more when God is treſ<g ref="char:EOLhyphen"/>paſſed againſt, and his Name diſhonoured; <hi>if they refuſe to hear the Church, let ſuch be Anathema.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>But then ſure another Church ought not to receive ſuch.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>It is the Advice of your Author, but how wiſely given, let all ſober Perſons judge: for my own part, I am not of that mind, but I am willing to follow the counſel of him, who ſaith, <hi>let all things be done decently and in order.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>D.</speaker>
+               <p>God grant we may all ſo do.</p>
+            </sp>
+            <sp>
+               <speaker>C.</speaker>
+               <p>
+                  <hi>Amen.</hi>
+               </p>
+            </sp>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:59628:24"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:59628:24"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+      </body>
+   </text>
+</TEI>
